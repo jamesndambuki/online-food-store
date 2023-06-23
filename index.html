@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+    <!-- header section -->
+
+    <header>
+
+        <a href="#" class="logo"><i class="fa fa-utensils"></i>jeems.</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+
+
+        <!-- search form -->
+
+        <form action="" id="search-form">
+            <input type="search" placeholder="search here..." name="" id="search-box">
+            <label for="search-box" class="fa fa-search"></label>
+            <i class="fa fa-times" id="close"></i>
+        </form>
+    </header>
+
+    <body>
+
+        <!-- home section -->
+        <section class="home" id="home">
+            <div class="home-slider">
+                <div class="wrapper">
+                    <div class="slide">
+                        <div class="content">
+                            <span>our special dish</span>
+                            <h3>spicy noodles</h3>
+                            <p>They are well cooked and spiced noodles which offer a sweet taste and aroma.</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                        <div class="image">
+                            <img src="/img/noodles.png"> </div>
+                    </div>
+                    <div class="slide">
+                        <div class="content">
+                            <span>our special dish</span>
+                            <h3>spicy fried chicken</h3>
+                            <p>a deep fried chicken which is soft and very tasty</p>
+                            <a href="#" class="btn">orrder now</a>
+                        </div>
+                        <div class="image">
+                            <img src="/img/fried chicken.png"> </div>
+                    </div>
+                    <div class="slide">
+                        <div class="content">
+                            <span>our special dish</span>
+                            <h3>spicy hot pizza</h3>
+                            <p>an amazing hot fresh pizza well cooked and very sweet.</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                        <div class="image">
+                            <img src="/img/hot pizza.png"> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- dishes section -->
+
+        <section class="dishes" id="dishes">
+            <h3 class="sub-heading">our dishes</h3>
+            <h1 class="heading">popular dishes</h1>
+            <div class="box-container">
+                <div class="box">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                    <img src="/img/burger.png">
+                    <h3>tasty burger</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <span>$5.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                    <img src="/img/yams.png">
+                    <h3>tasty yams</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <span>$6.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                    <img src="/img/chapo.png">
+                    <h3>tasty chapatis</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <span>$4.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                    <img src="/img/chicken.png">
+                    <h3>tasty chicken</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <span>$12.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                    <img src="/img/cake.png">
+                    <h3>tasty cakes</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <span>$2.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                    <img src="/img/small pizza.png">
+                    <h3>tasty pizza</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <span>$14.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- about section -->
+
+        <section class="about" id="about">
+            <h3 class="sub-heading">about us</h3>
+            <h1 class="heading">why choose us</h3>
+
+                <div class="row">
+                    <div class="image">
+                        <img src="/img/ice creams.jpeg">
+                    </div>
+                    <div class="content">
+                        <h3>best food in the country</h3>
+                        <p>we are a online food kitchen where we offer best foods. our services are delivered direct to your doorstep from our kitchens. our services are services in that we deliver ready hot foods right to your doorstep within a vary short
+                            time. our foods are healthy and suitable for anyone because we offer the best</p>
+                        <div class="icons-container">
+                            <div class="icons">
+                                <i class="fas fa-shipping-fast"></i>
+                                <span>free delivery</span>
+                            </div>
+                            <div class="icons">
+                                <i class="fas fa-dollar-sign"></i>
+                                <span>easy payments</span>
+                            </div>
+                            <div class="icons">
+                                <i class="fas fa-headset"></i>
+                                <span>24/7 service</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn">learn more</a>
+                    </div>
+                </div>
+        </section>
+
+        <!-- menu section -->
+
+        <section class="menu" id="menu">
+            <h3 class="sub-heading">our menu</h3>
+            <h1 class="heading">today's speciality</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="image">
+                            <img src="/img/pice.png">
+                            <a href="#" class="fas fa-heart"></a>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h3>delicious food</h3>
+                            <p>This is a very tasty meal served while hot. It is sweet and healthy one.</p>
+                            <a href="#" class="btn">add to cart</a>
+                            <span class="price">$12.99</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="/img/coctail.png">
+                            <a href="#" class="fas fa-heart"></a>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h3>coctail juice</h3>
+                            <p>sweet smooth flowing coctail juice</p>
+                            <a href="#" class="btn">add to cart</a>
+                            <span class="price">$5.99</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="/img/t 2.png">
+                            <a href="#" class="fas fa-heart"></a>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h3>bbq pizza</h3>
+                            <p>a chicken bbq pizza.</p>
+                            <a href="#" class="btn">add to cart</a>
+                            <span class="price">$21.99</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="/img/sweet.png">
+                            <a href="#" class="fas fa-heart"></a>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h3>indian cuisine</h3>
+                            <p>an indian made cuisine .</p>
+                            <a href="#" class="btn">add to cart</a>
+                            <span class="price">$15.99</span>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="/img/orange juice.png">
+                            <a href="#" class="fas fa-heart"></a>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h3>orange juice</h3>
+                            <p>a freshly made orange juice rich in nutrients.</p>
+                            <a href="#" class="btn">add to cart</a>
+                            <span class="price">$2.99</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="/img/burger 2.png">
+                            <a href="#" class="fas fa-heart"></a>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h3>burger</h3>
+                            <p>a great burger with beef inside.</p>
+                            <a href="#" class="btn">add to cart</a>
+                            <span class="price">$7.99</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="/img/coffee cakes 2.jpeg">
+                            <a href="#" class="fas fa-heart"></a>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h3>coffee cakes</h3>
+                            <p>a great combination of white coffee and sweet greenish cakes leaves your muth watering.</p>
+                            <a href="#" class="btn">add to cart</a>
+                            <span class="price">$10.99</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="/img/quarter chicken.png">
+                            <a href="#" class="fas fa-heart"></a>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h3>chicken pieces</h3>
+                            <p>these are great chunks of roasted fried chicken</p>
+                            <a href="#" class="btn">add to cart</a>
+                            <span class="price">$22.99</span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- review section -->
+
+        <section class="review" id="review">
+
+            <h3 class="sub-heading">customer's review</h3>
+            <h1 class="heading">what they say</h3>
+                <div class="review-slider">
+                    <div class="wrapper">
+                        <i class="fa fa-quote-right"></i>
+                        <div class="slide">
+                            <div class="user">
+                                <img src="/img/sean seatle21.jpg">
+                                <div class="user-info">
+                                    <h3>sean seatle</h3>
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>these guys have the best food. its healthy and very affordable. i am a frequent customer and i really enjoy their food</p>
+                    </div>
+                    <div class="wrapper">
+                        <i class="fa fa-quote-right"></i>
+                        <div class="slide">
+                            <div class="user">
+                                <img src="/img/sean seatle21.jpg">
+                                <div class="user-info">
+                                    <h3>sean seatle</h3>
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>these guys have the best food. its healthy and very affordable. i am a frequent customer and i really enjoy their food</p>
+                    </div>
+                    <div class="wrapper">
+                        <i class="fa fa-quote-right"></i>
+                        <div class="slide">
+                            <div class="user">
+                                <img src="/img/sean seatle21.jpg">
+                                <div class="user-info">
+                                    <h3>sean seatle</h3>
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>these guys have the best food. its healthy and very affordable. i am a frequent customer and i really enjoy their food</p>
+                    </div>
+                </div>
+        </section>
+
+
+        <!-- order section -->
+        <section class="order" id="order">
+            <h3 class="sub-heading">order now</h3>
+            <h3 class="heading">free and fast</h3>
+            <form action="">
+                <div class="inputbox">
+                    <div class="input">
+                        <span>your name</span>
+                        <input type="text" placeholder="enter your name">
+                    </div>
+                    <div class="input">
+                        <span>your number</span>
+                        <input type="number" placeholder="enter your number">
+                    </div>
+                </div>
+                <div class="inputbox">
+                    <div class="input">
+                        <span>your order</span>
+                        <input type="text" placeholder="enter food name">
+                    </div>
+                    <div class="input">
+                        <span>additional food</span>
+                        <input type="text" placeholder="extra with food">
+                    </div>
+                </div>
+                <div class="inputbox">
+                    <div class="input">
+                        <span>how much</span>
+                        <input type="text" placeholder="how many orders">
+                    </div>
+                    <div class="input">
+                        <span>date and time</span>
+                        <input type="datetime-local">
+                    </div>
+                </div>
+                <div class="inputbox">
+                    <div class="input">
+                        <span>your address</span>
+                        <textarea name="" placeholder="enter address" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="input">
+                        <span>your message</span>
+                        <textarea name="" placeholder="enter message" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="order now" class="btn">
+            </form>
+        </section>
+
+
+        <!-- footter -->
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>locations</h3>
+                    <a href="#">juja</a>
+                    <a href="#">k-road</a>
+                    <a href="#">kiambu</a>
+                    <a href="#">thika</a>
+                    <a href="#">nairobi</a>
+                    <a href="#">weitethie</a>
+                </div>
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#">home</a>
+                    <a href="#">dishes</a>
+                    <a href="#">about</a>
+                    <a href="#">menu</a>
+                    <a href="#">review</a>
+                    <a href="#">order</a>
+                </div>
+                <div class="box">
+                    <h3>contact-info</h3>
+                    <a href="#">+254714524686</a>
+                    <a href="#">+254702249512</a>
+                    <a href="#">jamesbruen16@gmail.com</a>
+                    <a href="#">jamesbruen17@gmail.com</a>
+                    <a href="#">oasis, juja-gatundu road, juja, nairobi, Kenya</a>
+                </div>
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#">facebook</a>
+                    <a href="#">twitter</a>
+                    <a href="#">instagram</a>
+                    <a href="#">linkedin</a>
+                </div>
+            </div>
+            <div class="credit">copyright @ 2022 by <a href="www.jbruenwebs.000webhostapp.com"><span>jbruens web services inc.</a></span>
+            </div>
+        </section>
+
+
+
+
+
+
+
+    </body>
+
+</html>
+
+</html>
